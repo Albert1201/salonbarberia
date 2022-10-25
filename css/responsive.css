@@ -1,0 +1,163 @@
+/* modo resposive */
+/* La imagen más pequeña va primero, sin condiciones, porque es para  celular */
+@media (min-width: 320px) and (max-width: 480px) {
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+  }
+
+  .banner-principal {
+    margin: auto;
+    display: block;
+    width: 100%;
+  }
+
+  .navegacion,
+  .principal,
+  .mapa-contenido,
+  .contenido-diferenciales,
+  .video,
+  .contacto {
+    width: auto;
+    /* background: red; */
+  }
+
+  .lista-diferenciales,
+  .imagen-diferenciales {
+    width: 50%;
+  }
+
+  .productos {
+    width: auto;
+  }
+
+  .productos li {
+    width: auto;
+    margin: 5px;
+  }
+
+  .input-padron {
+    width: 70%;
+  }
+
+  input.enviar{
+   align-items: center;
+  }
+
+  table {
+    margin: 50px 50px;
+  }
+}
+
+/*Para pantallas de entre 480 y 800px */
+@media (min-width: 481px) and (max-width: 799px) {
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+  }
+
+  .banner-principal {
+    margin: auto;
+    display: block;
+    width: 70%;
+  }
+
+  .navegacion,
+  .principal,
+  .mapa-contenido,
+  .contenido-diferenciales,
+  .contacto {
+    width: 70%;
+    /* background: blueviolet; */
+  }
+
+  .video {
+    width: 70%;
+  }
+
+  .lista-diferenciales,
+  .imagen-diferenciales {
+    width: 50%;
+  }
+
+  .productos {
+    width: 60%;
+    /* display: block; */
+  }
+
+  .productos li {
+    width: auto;
+    margin: 5px;
+    display: block;
+  }
+
+  table {
+    margin: 50px 50px;
+  }
+
+  .input-padron {
+    width: 70%;
+  }
+}
+
+
+/* Para pantallas de entre 800 y 1280px */
+@media (min-width: 800px) and (max-width: 1200px) {
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+  }
+
+  .banner-principal {
+    margin: auto;
+    display: block;
+    width: 75%;
+  }
+
+  .navegacion,
+  .principal,
+  .mapa-contenido,
+  .contenido-diferenciales,
+  .video,
+  .contacto {
+    width: 75%;
+    /* background: green; */
+  }
+
+  .video {
+    width: 75%;
+  }
+
+  .lista-diferenciales,
+  .imagen-diferenciales {
+    width: 50%;
+  }
+
+  .productos {
+    width: 70%;
+    /* display: block; */
+  }
+
+  .productos li {
+    width: auto;
+    margin: 20px;
+    display: block;
+  }
+
+  table {
+    margin: 50px 50px;
+  }
+
+  .input-padron {
+    width: 75%;
+  }
+}

@@ -1,0 +1,5 @@
+http://xahlee.info/comp/unicode_stars.html
+
+
+sombras
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Box-shadow_generator

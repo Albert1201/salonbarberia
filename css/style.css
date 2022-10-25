@@ -1,0 +1,311 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* estilos para header */
+header {
+    background-color: #bbbbbb;
+    padding: 20px 0;
+}
+
+.navegacion {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+/* estilos para navegacion */
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+
+
+/* estilos para home */
+
+.banner-principal {
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+
+
+.principal {
+    padding: 3em 0;
+    background: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;    
+}
+
+.texto{
+    padding: 5px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+
+p::first-line {
+    font-style: italic;
+}
+
+
+.principal strong {
+    font-weight: bold;
+}
+
+
+/* estilos utensilios */
+.principal em {
+    font-style: italic;
+}
+
+.utensilios {    
+    width: 120px;
+    /* width: calc(30% - (40px * 4)); */
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+
+/* estilos para mapa */
+.mapa {
+    padding: 3em 0;
+    background: linear-gradient(#fefefe, #888888)
+      
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.mapa-contenido {
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+
+
+/* estilos para diferenciales */
+
+.diferenciales {
+    padding: 3em 0;
+    background: #888888;    
+}
+
+.contenido-diferenciales {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-diferenciales {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;    
+}
+
+.items {   
+    line-height: 1.5;
+}
+
+.items::before {
+    content: "★";
+}
+
+.items:first-child{
+    font-weight: bold;
+}
+
+.imagen-diferenciales {
+    width: 60%;   
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px #000000;    
+}
+
+.imagen-diferenciales:hover{
+    opacity: 0.5;
+}
+
+
+/* estilos pagina video home */
+.video {
+    width: 720px;
+    margin: 1em auto;
+}
+
+
+/* estilos para footer */
+footer {
+    text-align: center;
+    /* background: #181715; */
+    background-image: url("./imagenes/fondo.png");
+    padding: 20px;
+
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 10px;
+}
+
+
+
+/* estilos pagina productos */
+
+.productos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.productos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.productos li:hover {
+    border-color: #c78c19;
+}
+
+.productos li:active {
+    border-color: #088c19;
+}
+
+.productos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productos li:hover h2 {
+    font-size: 33px;
+}
+
+.producto-descripcion {
+    font-size: 18px;
+}
+
+.producto-precio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
+/* estilos pagian contacto */
+
+.contacto {
+    width: 940px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+form {
+    margin: 40px 0;
+}
+
+
+form label,
+form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.2);   
+}
+
+
+
+/* estilos para tabla */
+table {
+    margin: 40px 100px;  
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+}
+
+td,
+th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+    font-size: 18px;
+}
+
+

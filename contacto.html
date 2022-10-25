@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+   <!-- modo responsibe -->
+   <meta name="viewport" content="width=device-width">
+
+    <title>Contacto - Barberia Alura</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <!-- modo responsibe -->
+    <link rel="stylesheet" href="css/responsive.css"> 
+    
+
+</head>
+
+<body>
+
+    <header>
+        <div class="navegacion">
+            <h1><img src="img/logo.png" alt="Logo de la Barberia Aula"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+        <form class="contacto">
+            <label for="nombreapellido">Nombre y Apellido</label>
+            <input type="text" id="nombreapellido" class="input-padron">
+
+            <label for="correoelectronico">Correo Electronico</label>
+            <input type="text" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+
+            <label for="telefono">Telefono</label>
+            <input type="tel" id="telefono" class="input-padron" required placeholder="(xxx) xxxx xxxx">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea cols="70" rows="10" id="mensaje" class="input-padron"></textarea>
+
+            <fieldset>
+                <legend>Como le gustaria que lo contactemos?</legend>
+
+                <label for="radio-email"><input type="radio" name="contacto" value="email"
+                        id="radio-email">Email</label>
+
+                <label for="radio-telefono"><input type="radio" value="Telefono" id="radio-telefono">Telefono</label>
+
+
+                <label for="radio-whatsapp"><input type="radio" name="contacto" value="Whatsapp" id="radio-Whatsapp"
+                        checked>Whatsapp</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>En cual horario prefiere ser atentido</legend>
+
+                <select>
+                    <option>Manana</option>
+                    <option>Tarde</option>
+                    <option>Noche</option>
+                </select>
+            </fieldset>
+
+            <label class="checkbox"><input type="checkbox" checked>Le gustaria recibir novedades de la Barberia
+                Alura?</label>
+
+            <label><input type="submit" name="contacto" value="Enviar formulario" class="enviar"></label>
+
+        </form>
+
+        <!-- Tabla -->
+
+        <div class="tabla">
+        <table>
+
+            <thead>
+                <tr>
+                    <td>Dia</td>
+                    <td>Horario</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>8am - 8pm</td>
+                </tr>
+                <tr>
+                    <td>Miercoles</td>
+                    <td>8am - 8pm</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>8am - 8pm</td>
+                </tr>
+            </tbody>       
+
+        </table>
+    </div>
+
+    </main>
+
+
+    <footer>
+        <!-- <img src="img/bg.jpg"> -->
+        <img src="img/logo-blanco.png" alt="Logo de la Barberia Aula">
+
+        <p class="copyright">&copy Copyright Barberia Alura - 2022</p>
+    </footer>
+
+</body>
+
+
+</html>
